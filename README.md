@@ -23,7 +23,8 @@ duration : Total Duration - in minutes or number of seasons
 listed_in : Genere
 description: The Summary description
 
-Exploring Solutions:
+📖 Exploring Solutions:
+
 Having a deeper understanding of what problem we are trying to solve, what the users’ needs, and frustrations are, and what the goals are for achieving the best possible solution for both for the business as well as the user, I began by listing out the possible solutions that were arrived from the research.
 
 Improve rating system: Use the star rating rather than a thumbs up and thumbs down rating system to help guide in decision making when selecting a film.
@@ -33,7 +34,7 @@ Show popular/trending films: Create a category which showcases only trending con
 Connect with Friends: It was proven that users watch shows and movies based on friend recommendations so this may be useful for keeping users locked into Netflix for longer.
 Organizing films by the mood: Alongside the genres filter, it may be possible to organize content based on the mood that is experienced after watching the film.
 
-Steps involved:
+📖 Steps involved:
 
 The full code for this article can be found here. It is implemented in Python and different clustering algorithms are used. Below is a brief description of the general approach that I employed:
 
@@ -45,11 +46,19 @@ Clustering: Clustering or cluster analysis is a machine learning technique, whic
 📖 CONCLUSION 
 
 	Data set contains 7787 rows and 12 columns in that cast and director features contains large number of missing values so we can drop it and we have 10 features for the further implementation.
+
 	 We have two types of content TV shows and Movies (30.86% contains TV shows and 69.14%contains Movies).
+
 	The most number of the movies and TV shows release in 2017 and 2020 respectively and united nation have the maximum content on Netflix 
+
 	On Netflix, Dramas genre contains the maximum content among all of the genres and the most of the content added in December month and less content in February.
+
 	By applying the silhouette score method for n range clusters on dataset we got best score which is 0.244for 4 clusters it means content explained well on their own clusters, by using elbow method after k =4 curve gets linear it means k =4 will be the best cluster 
+
 	By applying different clustering algorithms to our dataset, we get the optimal number of cluster is equal to 4.
+
 	We have done null value treatment, feature engineering, and EDA since loading the dataset then completed assigned tasks. 
+
 	Among different types of content available in different countries, content TV-MA is available in most countries. This could be because it shows that it is just for adult audiences, and the Netflix audience enjoys content like this. 
+
 	We have also explained different clusters based on their content; Defined clusters and enforced the K-means clustering algorithm and cluster number nine has the most clusters; we have also plotted a scatter plot in which we may interact with similar content about that cluster.
